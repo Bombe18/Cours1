@@ -158,8 +158,8 @@ h1 {
 
 .titreEntete {
 
-  line-height: 1;
-  margin-bottom: -10px;
+    line-height: 1;
+    margin-bottom: -10px;
 }
 
 .search {
@@ -521,9 +521,19 @@ footer ul {
     margin-top: -9px;
 }
 
-
-
 /****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1438px) */
+@media (max-width: 1438px) {
+    .show-more {
+        margin-top: 0;
+    }
+
+    .a-show-more {
+        height: 20px;
+    }
+}
+
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
@@ -548,9 +558,13 @@ footer ul {
         width: 100%;
     }
 
-.a-show-more {height: 20px;}
+    .a-show-more {
+        height: 20px;
+    }
 
-.show-more {margin-top: 0;}
+    .show-more {
+        margin-top: 0;
+    }
 
     /*populaire*/
     .populaires {
@@ -734,12 +748,14 @@ footer ul {
 
 
     /*Button filters*/
-.buttonfilter {gap: 20px;}
+    .buttonfilter {
+        gap: 20px;
+    }
 
-.buttonfilter p {
-    margin-top: 0;
-margin-bottom: 0;
-}
+    .buttonfilter p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
     .divsubmit {
         flex-wrap: wrap;
@@ -765,6 +781,7 @@ margin-bottom: 0;
     .hebergements .section-title {
         margin-top: -5px;
     }
+
     .hebergements-cards {
         gap: 15px;
     }
@@ -833,7 +850,7 @@ margin-bottom: 0;
         display: flex;
         flex-direction: column;
         gap: 15px;
-         margin-top: 0;
+        margin-top: 0;
     }
 
     .populaires-cards .card-rating {
@@ -841,21 +858,24 @@ margin-bottom: 0;
     }
 
     /*hebergement*/
-.show-more {
-    margin-top: 0;
-}
+    .show-more {
+        margin-top: 0;
+    }
 
     /*activite*/
 
-    
+
     .activity {
 
         grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
 
         gap: 15px;
     }
-.activitemarseille {
-margin-left: 0;}
+
+    .activitemarseille {
+        margin-left: 0;
+    }
+
     .activitemarseille h2 {
         margin-left: 30px;
         font-size: 22px;
@@ -872,7 +892,9 @@ margin-left: 0;}
     }
 
     /*footer*/
-footer .footersection h4 {margin-top: 30px;}
+    footer .footersection h4 {
+        margin-top: 30px;
+    }
 
     footer .footersection {
         display: grid;
