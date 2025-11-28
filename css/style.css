@@ -157,8 +157,9 @@ h1 {
 }
 
 .titreEntete {
-    max-height: 53px;
-    line-height: 1;
+
+  line-height: 1;
+  margin-bottom: -10px;
 }
 
 .search {
@@ -271,7 +272,6 @@ h1 {
 
 .infomain {
     display: flex;
-    flex-direction: row;
     gap: 10px;
     align-items: center;
     max-height: 30px;
@@ -371,7 +371,7 @@ h1 {
 }
 
 .hebergements .card-content {
-    margin-left: 8px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -392,7 +392,7 @@ h1 {
 
     font-size: 18px;
     letter-spacing: -1px;
-    margin-bottom: 2px;
+    margin-bottom: 8px;
 }
 
 
@@ -547,6 +547,10 @@ footer ul {
     .hebergements {
         width: 100%;
     }
+
+.a-show-more {height: 20px;}
+
+.show-more {margin-top: 0;}
 
     /*populaire*/
     .populaires {
